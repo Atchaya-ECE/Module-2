@@ -125,22 +125,25 @@ for i in range(1, rows+1):
 ## Result
 Thus,the Python program that generates Pascal's Triangle using numbers. The number of rows is accepted from the user is created successfully.
 
-Loops in Python: Palindrome Number Checker
-🎯 Aim
-To write a Python program that checks whether a given number is a palindrome using loops.
+## Loops in Python: Palindrome Number Checker
 
-🧠 Algorithm
-Get input from the user and assign it to a variable num.
-Assign the value of num to a temporary variable temp.
-Initialize a variable rev to 0 (used to store the reversed number).
-Use a while loop to reverse the digits:
-While temp > 0:
-rev = (10 * rev) + temp % 10
-temp = temp // 10
-After the loop, compare rev with num:
-If equal, print that the number is a palindrome.
-Else, print that it is not a palindrome.
-🧾 Program
+## 🎯 Aim
+To write a Python program that checks whether a given number is a **palindrome** using loops.
+
+## 🧠 Algorithm
+1. Get input from the user and assign it to a variable `num`.
+2. Assign the value of `num` to a temporary variable `temp`.
+3. Initialize a variable `rev` to 0 (used to store the reversed number).
+4. Use a `while` loop to reverse the digits:
+   - While `temp > 0`:
+     - `rev = (10 * rev) + temp % 10`
+     - `temp = temp // 10`
+5. After the loop, compare `rev` with `num`:
+   - If equal, print that the number is a palindrome.
+   - Else, print that it is not a palindrome.
+
+## 🧾 Program
+```py
 num=int(input()) 
 rev=0 
 temp=num 
@@ -151,8 +154,9 @@ if rev==num:
 print("The given number {} is a Palindrome".format(num)) 
 else: 
 print("The given number {} is not a palindrome".format(num))
-Output
-image
+```
+## Output
+![image](https://github.com/user-attachments/assets/824f508e-0eb8-48ff-a69e-07eabaf669ea)
 
-Result
-Thus, the program has been successfully executed
+## Result
+Thus, the program has been successfully executed 
