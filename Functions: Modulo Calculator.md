@@ -27,5 +27,5 @@ print("modulo is", result(a, b))
 
 ## Result
 Thus,the Python program that defines a function which accepts two values and returns their modulo using the % operator is created successfully.
-# Lambda Function in Python: Addition of Two Numbers
+
 
